@@ -6,27 +6,14 @@
  </head>
  <body>
    <form method="POST" action="/team">
-     <input type="text" name="teamname" placeholder="Team Name">
-     <label for="teamname">Team Name:</label>
-     
-     <input type="text" name="coach" placeholder="Coach">
-     <label for="coach">Coach:</label>
-     
-     <input type="text" name="pointguard" placeholder="Point Guard">
-     <label for="pointguard">Point Guard:</label>
-     
-     <input type="text" name="shootguard" placeholder="Shooting Guard">
-     <label for="shootguard">Shooting Guard:</label>
-     
-     <input type="text" name="smforward" placeholder="Small Forward">
-     <label for="smforward">Small Forward:</label>
-     
-     <input type="text" name="pwrforward" placeholder="Power Forward">
-     <label for="pwrforward">Power Forward:</label>
-     
-     <input type="text" name="center" placeholder="center">
-     <label for="center">Center:</label>
-     <input id="submit" type="submit" value="submit">
+     <label>Team Name: <input type="text" name="name" /></label><br/>
+     <label>Coach: <input type="text" name="coach" /></label><br/>
+     <label>Point Guard: <input type="text" name="pg" /></label><br/>
+     <label>Shooting Guard: <input type="text" name="sg" /></label><br/>
+     <label>Power Forward: <input type="text" name="pf" /></label><br/>
+     <label>Small Forward: <input type="text" name="sf" /></label><br/>
+     <label>Center: <input type="text" name="c" /></label><br/><br/>
+     <input type="submit" id="Submit" />
    </form>
  </body>
 </html>
