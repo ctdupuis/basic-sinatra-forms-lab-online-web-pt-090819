@@ -9,11 +9,11 @@ class App < Sinatra::Base
   post '/team' do
     @name = params[:name]
     @coach = params[:coach]
-    @ = params[:]
-    @ = params[:]
-    @ = params[:]
-    @ = params[:]
-    @ = params[:]
+    @pg = params[:pg]
+    @sg = params[:sg]
+    @sf = params[:sf]
+    @pf = params[:pf]
+    @c = params[:c]
     erb :team
   end
 
